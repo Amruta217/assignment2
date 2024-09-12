@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  }
+  a {
+    font-family: sans-serif;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 12vw;
+    height: 10vh;
+    border-bottom: 1px solid #dddddd;
+  }
+  .logo-container a img {
+    width: 200px;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 28px;
+    list-style: none;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #666;
+  }
+  nav ul li a:hover {
+    color: #387ed1;
+  }
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .hero-img-container img {
+    width: 72vw;
+    height: auto;
+  }
+  .hero-desc {
+    text-align: center;
+  }
+  .hero-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 28px;
+  }
+  
+  .hero-info {
+    margin-bottom: 28px;
+  }
+  .hero-desc a {
+    text-decoration: none;
+    background: #387ed1;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+  
+  .hero-desc a:hover {
+    background-color: #000;
+  }
+  
+  /trust with confidence section/
+  .sec-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 12vw;
+    color: #666;
+    margin: 2vh 0;
+  }
+  
+  .sec-2-left {
+    width: 24vw;
+  }
+  .title-desc {
+    padding-bottom: 2vh;
+  }
+  
+  .sec-2-left h2 {
+    padding-bottom: 4vh;
+    padding-top: 80px;
+  }
+  .sec-2-title {
+    font-size: 22px;
+    padding-bottom: 2wh;
+    
+  }
+  .title-desc p:last-child {
+    line-height: 28px;
+    font-size: 16px;
+  }
+  
+  .sec-2-right{
+      display: flex;
+  }
+  
+  /newsletter/
+  .newsletter{
+      height: ;
+  }
